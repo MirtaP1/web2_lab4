@@ -1,0 +1,96 @@
+2024/11/30 22:18:50 [error] 1308#18608: *1 CreateFile() "C:\nginx\nginx-1.26.2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/12/01 14:18:39 [emerg] 15940#8616: "server" directive is not allowed here in C:\nginx\nginx-1.26.2/conf/nginx.conf:120
+2024/12/01 14:19:33 [emerg] 20764#14916: "server" directive is not allowed here in C:\nginx\nginx-1.26.2/conf/nginx.conf:120
+2024/12/01 14:21:16 [emerg] 21352#19280: "server" directive is not allowed here in C:\nginx\nginx-1.26.2/conf/nginx.conf:120
+2024/12/01 14:23:25 [emerg] 19256#21728: "server" directive is not allowed here in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/04 15:29:41 [emerg] 8584#13336: "server" directive is not allowed here in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/04 15:30:31 [emerg] 16788#17264: "server" directive is not allowed here in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/04 15:38:50 [emerg] 1144#13220: "server" directive is not allowed here in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/04 15:41:56 [emerg] 10964#21744: "server" directive is not allowed here in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/04 15:42:12 [emerg] 13152#16604: "server" directive is not allowed here in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/04 15:51:20 [emerg] 3216#15132: "server" directive is not allowed here in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/04 15:51:20 [emerg] 11444#1936: "server" directive is not allowed here in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/04 15:55:27 [emerg] 7300#14784: "server" directive is not allowed here in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/04 15:55:37 [emerg] 8908#14940: "server" directive is not allowed here in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/04 16:02:28 [warn] 15784#22100: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/04 16:02:28 [warn] 15784#22100: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/04 16:02:28 [emerg] 15784#22100: cannot load certificate "C:/nginx/nginx-1.26.2/ssl/nginx.crt": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(C:/nginx/nginx-1.26.2/ssl/nginx.crt, r) error:10000080:BIO routines::no such file)
+2024/12/04 16:02:39 [warn] 7368#11156: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/04 16:02:39 [warn] 7368#11156: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/04 16:02:39 [emerg] 7368#11156: cannot load certificate "C:/nginx/nginx-1.26.2/ssl/nginx.crt": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(C:/nginx/nginx-1.26.2/ssl/nginx.crt, r) error:10000080:BIO routines::no such file)
+2024/12/04 16:02:46 [warn] 8040#15060: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/04 16:02:46 [warn] 8040#15060: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/04 16:02:46 [emerg] 8040#15060: cannot load certificate "C:/nginx/nginx-1.26.2/ssl/nginx.crt": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(C:/nginx/nginx-1.26.2/ssl/nginx.crt, r) error:10000080:BIO routines::no such file)
+2024/12/04 16:02:48 [warn] 16660#1140: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/04 16:02:48 [warn] 16660#1140: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/04 16:02:48 [emerg] 16660#1140: cannot load certificate "C:/nginx/nginx-1.26.2/ssl/nginx.crt": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(C:/nginx/nginx-1.26.2/ssl/nginx.crt, r) error:10000080:BIO routines::no such file)
+2024/12/04 16:05:49 [warn] 16032#2540: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/04 16:05:49 [warn] 16032#2540: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/04 16:05:49 [emerg] 16032#2540: cannot load certificate "C:/nginx/nginx-1.26.2/ssl/nginx.csr": PEM_read_bio_X509_AUX() failed (SSL: error:0480006C:PEM routines::no start line:Expecting: TRUSTED CERTIFICATE)
+2024/12/04 16:08:01 [warn] 14476#8064: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/04 16:08:01 [warn] 14476#8064: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/04 16:08:01 [warn] 21308#15220: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/04 16:08:01 [warn] 21308#15220: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/04 16:08:07 [error] 21308#10296: *7 "C:/nginx/nginx-1.26.2/html/lab4/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/2.0", host: "localhost"
+2024/12/04 16:08:08 [error] 21308#10296: *7 CreateFile() "C:/nginx/nginx-1.26.2/html/lab4/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/2.0", host: "localhost", referrer: "https://localhost/"
+2024/12/04 18:42:03 [warn] 18112#10952: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/04 18:42:03 [warn] 18112#10952: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/06 10:09:52 [warn] 13092#11092: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 10:09:52 [warn] 13092#11092: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/06 10:09:53 [warn] 22184#19256: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 10:09:53 [warn] 22184#19256: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/06 10:10:09 [error] 22184#16408: *2 "C:/nginx/nginx-1.26.2/html/lab4/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/2.0", host: "localhost"
+2024/12/06 10:10:10 [error] 22184#16408: *2 CreateFile() "C:/nginx/nginx-1.26.2/html/lab4/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/2.0", host: "localhost", referrer: "https://localhost/"
+2024/12/06 10:10:13 [error] 22184#16408: *2 "C:/nginx/nginx-1.26.2/html/lab4/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/2.0", host: "localhost"
+2024/12/06 11:28:54 [warn] 22044#10508: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 11:28:54 [warn] 22044#10508: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/06 11:28:54 [notice] 22044#10508: signal process started
+2024/12/06 11:28:55 [warn] 14100#21816: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 11:28:55 [warn] 14100#21816: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/06 11:29:14 [error] 14100#8980: *6 directory index of "C:/nginx/nginx-1.26.2/html/lab4/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/2.0", host: "localhost"
+2024/12/06 11:29:16 [error] 14100#8980: *6 directory index of "C:/nginx/nginx-1.26.2/html/lab4/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/2.0", host: "localhost"
+2024/12/06 11:29:28 [error] 14100#8980: *6 "C:/nginx/nginx-1.26.2/html/lab4/lab4/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /lab4/ HTTP/2.0", host: "localhost"
+2024/12/06 11:29:30 [error] 14100#8980: *6 "C:/nginx/nginx-1.26.2/html/lab4/lab4/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /lab4/ HTTP/2.0", host: "localhost"
+2024/12/06 11:30:41 [warn] 20936#9936: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 11:30:41 [warn] 20936#9936: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/06 11:30:41 [notice] 20936#9936: signal process started
+2024/12/06 11:30:41 [warn] 8760#21288: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 11:30:41 [warn] 8760#21288: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/06 11:30:45 [error] 8760#13372: *10 "C:/nginx/nginx-1.26.2/html/lab4/lab4/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /lab4/ HTTP/2.0", host: "localhost"
+2024/12/06 11:30:47 [error] 8760#13372: *10 "C:/nginx/nginx-1.26.2/html/lab4/lab4/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /lab4/ HTTP/2.0", host: "localhost"
+2024/12/06 11:30:48 [error] 8760#13372: *10 "C:/nginx/nginx-1.26.2/html/lab4/lab4/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /lab4/ HTTP/2.0", host: "localhost"
+2024/12/06 11:30:49 [error] 8760#13372: *10 "C:/nginx/nginx-1.26.2/html/lab4/lab4/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /lab4/ HTTP/2.0", host: "localhost"
+2024/12/06 11:32:35 [error] 8760#13372: *14 "C:/nginx/nginx-1.26.2/html/lab4/lab4/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /lab4/ HTTP/2.0", host: "localhost"
+2024/12/06 11:48:32 [error] 8760#13372: *22 CreateFile() "C:/nginx/nginx-1.26.2/html/lab4/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/2.0", host: "localhost", referrer: "https://localhost/"
+2024/12/06 11:49:02 [warn] 8208#6292: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 11:49:02 [warn] 8208#6292: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/06 11:49:02 [notice] 8208#6292: signal process started
+2024/12/06 11:49:02 [warn] 10736#13648: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 11:49:02 [warn] 10736#13648: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/06 11:49:08 [error] 10736#6884: *25 CreateFile() "C:/nginx/nginx-1.26.2/html/lab4/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/2.0", host: "localhost", referrer: "https://localhost/"
+2024/12/06 11:49:47 [warn] 14264#6268: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 11:49:47 [warn] 14264#6268: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/06 11:49:47 [notice] 14264#6268: signal process started
+2024/12/06 11:49:47 [warn] 14420#8556: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 11:49:47 [warn] 14420#8556: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/06 11:54:48 [warn] 14452#13640: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 11:54:48 [warn] 14452#13640: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/06 11:54:48 [notice] 14452#13640: signal process started
+2024/12/06 11:54:48 [warn] 18184#1928: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 11:54:48 [warn] 18184#1928: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/06 13:48:39 [warn] 5404#15064: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 13:48:39 [notice] 5404#15064: signal process started
+2024/12/06 13:48:39 [warn] 12796#2948: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 14:01:51 [warn] 16872#11660: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 14:01:51 [warn] 16872#11660: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/06 14:01:51 [notice] 16872#11660: signal process started
+2024/12/06 14:01:51 [warn] 8932#5892: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 14:01:51 [warn] 8932#5892: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/06 14:04:54 [warn] 19944#9656: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 14:04:54 [notice] 19944#9656: signal process started
+2024/12/06 14:04:54 [warn] 21236#14136: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 14:18:53 [warn] 13420#17312: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 14:18:53 [warn] 13420#17312: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/06 14:18:53 [notice] 13420#17312: signal process started
+2024/12/06 14:18:53 [warn] 22056#21096: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 14:18:53 [warn] 22056#21096: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
