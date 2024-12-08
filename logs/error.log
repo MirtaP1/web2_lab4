@@ -94,3 +94,8 @@
 2024/12/06 14:18:53 [notice] 13420#17312: signal process started
 2024/12/06 14:18:53 [warn] 22056#21096: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
 2024/12/06 14:18:53 [warn] 22056#21096: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/06 14:31:27 [warn] 6020#18180: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 14:31:27 [warn] 6020#18180: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
+2024/12/06 14:31:27 [notice] 6020#18180: signal process started
+2024/12/06 14:31:27 [warn] 1164#8400: "user" is not supported, ignored in C:\nginx\nginx-1.26.2/conf/nginx.conf:1
+2024/12/06 14:31:27 [warn] 1164#8400: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\nginx\nginx-1.26.2/conf/nginx.conf:13
